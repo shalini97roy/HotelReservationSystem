@@ -6,7 +6,7 @@ import javax.persistence.Id;
 @Entity
 public class Hotel {
 	@Id
-	 private String hotelId;  
+	private String hotelId;  
     private String hotelName;
 	public Hotel() {
 		super();

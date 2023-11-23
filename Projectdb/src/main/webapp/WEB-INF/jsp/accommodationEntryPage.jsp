@@ -7,6 +7,8 @@
 </head>
 <body>
     <div align="center">
+    <div class="container text-center mt-5 fade-in" >
+            <div class="jumbotron">
     <h1><u>New Accommodation Entry Page</u></h1>
     <form action="/accommodation" method="post">
         <h3>
@@ -17,8 +19,12 @@
             New Accommodation fare per day: <input type="text" name="farePerDay"/>
             <br><br>
             <button type="submit">Submit</button>
+            &nbsp;&nbsp;
+           <button><a href="/accommodationInd">Return</a></button>
         </h3>
     </form>
+</div>
+</div>
 </div>
 </body>
 </html>

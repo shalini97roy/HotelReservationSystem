@@ -26,7 +26,7 @@
 </c:forEach>
 </table>
 <br>
-<a href="index">Return</a>
+<a href="/accommodationInd">Return</a>
 </h3>
 </div>
 </body>

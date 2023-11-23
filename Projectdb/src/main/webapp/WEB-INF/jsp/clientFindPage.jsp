@@ -5,15 +5,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Hotel Find Page</title>
+<title>Insert title here</title>
 </head>
 <body>
 <div align="center">
 <h3>
-<form action="hotel-find" method="post">
-Enter Hotel Id:<input type="text" name="hotel-id" list="idList"/>
+<form action="client-find" method="post">
+Enter Client Id:<input type="text" name="client-id" list="idList"/>
 <datalist id="idList">
-<c:forEach items="${hotelIdList}" var="id">
+<c:forEach items="${clientIdList}" var="id">
 <option value="${id}">${id}</option>
 </c:forEach>
 
@@ -23,7 +23,8 @@ Enter Hotel Id:<input type="text" name="hotel-id" list="idList"/>
 <button type="submit" value="details" name="details">Details</button>
 &nbsp; &nbsp; &nbsp;
 <button type="submit" value="update" name="update">Update</button>
-
+&nbsp; &nbsp; &nbsp;
+ <button><a href="/clientInd">Return</a></button>
 
 </form>
 </h3>

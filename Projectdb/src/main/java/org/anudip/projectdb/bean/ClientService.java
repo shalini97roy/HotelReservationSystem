@@ -6,10 +6,9 @@ import javax.persistence.Id;
 @Entity
 public class ClientService {
 	@Id
-	private Long serialNumber; // Auto-generated
-    private Long clientId;  //dropdown
-
-    private String serviceType; //dropdown
+	private Long serialNumber; 
+    private Long clientId; 
+    private String serviceType;
     private String date;
     private double amount;
 	public ClientService() {
@@ -58,6 +57,6 @@ public class ClientService {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-    
+	
 
 }

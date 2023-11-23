@@ -17,15 +17,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container text-center mt-5">
+<div class="container text-center mt-5 fade-in">
+            <div class="jumbotron">
 <h2>
 <a href="/client" class="btn btn-primary mr-3">New Client Entry</a>
 &nbsp; &nbsp;
-<a href="" class="btn btn-primary mr-3">Display/Update A Client</a>
+<a href="/client-find" class="btn btn-primary mr-3">Display/Update A Client</a>
 &nbsp; &nbsp;
 <a href="/clients" class="btn btn-primary mr-3">Display All Clients</a>
 </h2>
+<br><br>
+<a href="/admin" class="btn btn-primary mr-3">Back</a>
 </div>
-
+</div>
 </body>
 </html>
